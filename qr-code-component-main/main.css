@@ -17,4 +17,13 @@ body{
 .box {
   background-color: white;
   width: 30%;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 10px;
+
+}
+
+.img{
+  justify-content: center;
+  
 }
