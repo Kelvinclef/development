@@ -23,7 +23,8 @@ body{
   background-color: white;
   display: flex;
   flex-direction: column;
-  padding: 30px 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   width: 300px;
   align-items: center;
   border: none;
@@ -39,7 +40,7 @@ body{
 }
 
 .textBox {
-  padding: 0 20px;
+  padding: 0 5px;
 }
 
 h2{
