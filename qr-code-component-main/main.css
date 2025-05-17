@@ -28,16 +28,17 @@ body{
   width: 250px;
   align-items: center;
   border: none;
-  border-radius: 20px;
+  border-radius: 10px;
   margin: 2.5rem;
 
 }
 
-.img{
+.box-img-container
+.box-img{
   justify-content: center;
   text-align: center;
   padding-bottom: 10px;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .textBox {
