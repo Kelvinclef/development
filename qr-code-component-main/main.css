@@ -1,3 +1,11 @@
+:root{
+  --White: hsl(0, 0%, 100%);
+
+--Slate-300: hsl(212, 45%, 89%);
+--Slate-500: hsl(216, 15%, 48%);
+--Slate-900: hsl(218, 44%, 22%);
+}
+
 *{
   padding: 0;
   margin: 0;
@@ -13,14 +21,14 @@
 }
 
 body{
-  background-color: aquamarine;
+  background-color: var(--Slate-900);
   text-align: center;
   font-family:  sans-serif;
   font-weight: 300;
   justify-items: center;
 }
 .box {
-  background-color: white;
+  background-color: var(--Slate 300);
   display: flex;
   flex-direction: column;
   padding-top: 20px;
