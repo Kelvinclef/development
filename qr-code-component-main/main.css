@@ -36,19 +36,18 @@ body{
 .box-img-container
 .box-img{
   justify-content: center;
-  text-align: center;
   padding-bottom: 10px;
-  border-radius: 10px;
+  border-radius: 10px 10px 10px 10px;
 }
 
 .textBox {
-  /* padding: 0 5px; */
   width: 200px;
 }
 
 h2{
   font-size: 15px;
   padding-bottom: 15px;
+  text-align: center;
 }
 
 p{
