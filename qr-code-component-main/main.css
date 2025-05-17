@@ -28,7 +28,7 @@ body{
   justify-items: center;
 }
 .box {
-  background-color: var(--Slate 300);
+  background-color: var(--White);
   display: flex;
   flex-direction: column;
   padding-top: 20px;
