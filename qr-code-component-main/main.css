@@ -24,8 +24,8 @@ body{
   display: flex;
   flex-direction: column;
   padding-top: 20px;
-  padding-bottom: 20px;
-  width: 250px;
+  padding-bottom: 30px;
+  width: 220px;
   align-items: center;
   border: none;
   border-radius: 10px;
@@ -33,11 +33,11 @@ body{
 
 }
 
-.box-img-container
+.box-img-container,
 .box-img{
   justify-content: center;
   padding-bottom: 10px;
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 10px;
 }
 
 .textBox {
