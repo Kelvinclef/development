@@ -34,6 +34,7 @@ body{
   font-weight: 400;
   font-style: normal;
   justify-items: center;
+  width: 375px;
 }
 .box {
   background-color: var(--White);
@@ -41,7 +42,7 @@ body{
   flex-direction: column;
   padding-top: 10px;
   padding-bottom: 10px;
-  width: 220px;
+  width: 300px;
   align-items: center;
   border: none;
   border-radius: 10px;
@@ -53,21 +54,22 @@ body{
 .box-img{
   justify-content: center;
   border-radius: 10px;
+  width: 250px;
 }
 
 .textBox {
   width: 200px;
 }
 
-h2{
-  font-size: 16px;
-  padding-bottom: 10px;
-  text-align: center;
+h2, p{
+  font-size: 15px;
+  padding-bottom: 0.1rem;
+  text-align: left;
 }
-
+/* 
 p{
   font-size: 15px;
-}
+} */
 @media only screen and (min-width: 375px) {
   body {
     background-color: lightblue;
