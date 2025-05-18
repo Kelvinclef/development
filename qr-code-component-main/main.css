@@ -74,7 +74,21 @@ p{
   text-align: left;
 }
 
-@media only screen and (min-width: 375px) {
+@media only screen and (max-width: 375px) {
   body {
-    background-color: lightblue;
+    background-color: var(--Slate-300);  
   }
+
+@media screen (min-width: 380px) and (max-width: 1440px) {
+  body {
+    background-color: var(--Slate-300);
+    display: flex;
+  }
+
+  main {
+    background-color: var(--Slate-900);
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+  }
+}
