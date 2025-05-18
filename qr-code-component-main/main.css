@@ -54,11 +54,12 @@ body{
 .box-img{
   justify-content: center;
   border-radius: 10px;
-  width: 250px;
+  width: 280px;
+  height: 300px;
 }
 
 .textBox {
-  width: 200px;
+  width: 250px;
 }
 
 h2, p{
@@ -66,10 +67,13 @@ h2, p{
   padding-bottom: 0.1rem;
   text-align: left;
 }
-/* 
+
 p{
   font-size: 15px;
-} */
+  padding-bottom: 0.1rem;
+  text-align: left;
+}
+
 @media only screen and (min-width: 375px) {
   body {
     background-color: lightblue;
