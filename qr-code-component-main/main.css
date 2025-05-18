@@ -52,7 +52,6 @@ body{
 .box-img-container,
 .box-img{
   justify-content: center;
-  /* padding-bottom: 5px; */
   border-radius: 10px;
 }
 
@@ -69,7 +68,7 @@ h2{
 p{
   font-size: 15px;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (min-width: 375px) {
   body {
     background-color: lightblue;
   }
